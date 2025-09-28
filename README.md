@@ -24,7 +24,7 @@ A sophisticated TypeScript-based trading bot that automatically places bets on B
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mooncitydev/crypto-prediction-bot.git
    cd PredictionBot-main
    ```
 
